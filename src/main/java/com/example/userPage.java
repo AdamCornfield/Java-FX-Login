@@ -1,3 +1,5 @@
+/* Program By Adam Cornfield */
+
 package com.example;
 
 import javafx.event.*;
