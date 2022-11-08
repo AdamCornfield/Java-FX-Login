@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="com.example.registerPage" xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" hgap="0" vgap="0">
+   <Text text="Register" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+ 
+    <Label text="User Name:" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="testField"/>
+ 
+    <TextField fx:id="userName" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+ 
+    <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+ 
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+ 
+    <Label text="Perms Level:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+ 
+    <TextField fx:id="permsField" GridPane.columnIndex="1" GridPane.rowIndex="3" text="USER"/>
+
+    <Button fx:id="cancelButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" text="Cancel" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+
+    <Button fx:id="createButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" text="Create Account" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+</GridPane>

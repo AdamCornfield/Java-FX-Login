@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="com.example.MainPage" xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" hgap="0" vgap="0">
+   <Text text="Welcome" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+ 
+    <Label text="User Name:" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="testField"/>
+ 
+    <TextField fx:id="userName" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+ 
+    <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+ 
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+    <Button fx:id="registerButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" text="Register" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+    <Button fx:id="loginButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" text="Login" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+</GridPane>
